@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.json({message: 'server up and running'});
+  res.sendFile(__dirname + '/pages/index.html');
 });
 
 // Define a route to handle the form submission
