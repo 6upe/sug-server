@@ -67,14 +67,14 @@ app.post(
       const transporter = nodemailer.createTransport({
         service: "Gmail",
         auth: {
-          user: "katongobupe444@gmail.com",
-          pass: "aqbm rche vjnf gbbu",
+          user: "zamangric@gmail.com",
+          pass: "tezv vqhd hudv zxhz",
         },
       });
 
       const mailOptions = {
-        from: "katongobupe444@gmail.com", // Replace with your Hotmail email
-        to: "katongobupe@hotmail.com", // Recipient email
+        from: "zamangric@gmail.com", // Replace with your Hotmail email
+        to: "zamangric@gmail.com", // Recipient email
         subject: `ZAMANGRIC Membership Application: ${membershipType}`,
         html: `
         <html>
